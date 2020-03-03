@@ -1,4 +1,4 @@
-## Burger app in React.js
+## Burger app in React.js, Redux, Redux-Saga
 
 This Project is a Simple ReactJS Project which demonstrates the following
 

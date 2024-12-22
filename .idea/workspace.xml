@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc74c84-370a-48f0-822a-184491212fb6" name="Default Changelist" comment="finish">
-      <change afterPath="$PROJECT_DIR$/src/hooks/http-error-handler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Auth/Logout/Logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/Logout/Logout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Checkout/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Checkout/Checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Orders/Orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/asyncComponent/asyncComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/auth.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,11 +154,15 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectFrameBounds">
     <option name="x" value="2319" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="2qYzdYVPaCygXZ7PyTOqVp8VkGR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -250,19 +242,26 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="D:\react_course\burger\node_modules\eslint" />
-    <property name="node.js.selected.package.standard" value="D:\react_course\burger\node_modules\eslint" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "hooks",
+    "last_opened_file_path": "/Users/augan/programming/javascript/react_my/react-burger-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\react_course\burger\src\shared" />
@@ -270,18 +269,14 @@
       <recent name="D:\react_course\burger\src\store\actions" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -311,6 +306,8 @@
       <workItem from="1582863686965" duration="10865000" />
       <workItem from="1583038887839" duration="7634000" />
       <workItem from="1583053061656" duration="8847000" />
+      <workItem from="1734854386444" duration="1238000" />
+      <workItem from="1734856982612" duration="5481000" />
     </task>
     <task id="LOCAL-00001" summary="asdasd">
       <created>1582391912846</created>
@@ -356,12 +353,48 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asdasd" />
     <MESSAGE value="finish" />
     <option name="LAST_COMMIT_MESSAGE" value="finish" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/store/reducers/auth.js</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/store/reducers/auth.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/store/actions/auth.js</url>
+          <line>30</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/store/actions/auth.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/store/reducers/auth.js</url>
+          <line>42</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">

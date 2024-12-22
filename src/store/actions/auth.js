@@ -8,6 +8,7 @@ export const authStart = () => {
 };
 
 export const authSuccess = (token, userId) => {
+    // Just returns action object (plain JS object)
     return {
         type: actionTypes.AUTH_SUCCESS,
         idToken: token,

@@ -2,19 +2,19 @@ import React from 'react';
 
 import classes from './Order.module.css';
 
-const order = (props) => {
-    const ingredients = [];
+const order = ({ingredients, price}) => {
+    const _ingredients = [];
 
-    for (let ingredientName in props.ingredients) {
-        ingredients.push(
+    for (let ingredientName in ingredients) {
+        _ingredients.push(
             {
                 name: ingredientName,
-                amount: props.ingredients[ingredientName]
+                amount: ingredients[ingredientName]
             }
         );
     }
 
-    const ingredientOutput = ingredients.map(ig => {
+    const ingredientOutput = _ingredients.map(ig => {
         return <span
             style={{
                 textTransform: 'capitalize',
@@ -30,7 +30,7 @@ const order = (props) => {
     return (
         <div className={classes.Order}>
             <p>Ingredients: {ingredientOutput}</p>
-            <p>Price: <strong>USD {Number.parseFloat(props.price).toFixed(2)}</strong></p>
+            <p>Price: <strong>USD {Number.parseFloat(price).toFixed(2)}</strong></p>
         </div>
     );
 };
